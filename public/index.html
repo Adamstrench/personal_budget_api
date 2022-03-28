@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>
+            Personal Budget Planner
+        </h1>
+        <br>
+        <form>
+            <div id="envForm">
+                <label class="name" id="name">Envelope's name:</label>
+                <input type="text" class="envName" />
+                <br>
+                <label class="value" id="value" name="value">Envelope's initial value:</label>
+                <input type="number" class="envValue">
+                <br>
+                <br>
+                <input type="button" id="getAll" class="getAll" value="All envelopes">
+                <input type="button" id="newEnv" class="newEnv" value="New envelope">
+                <input type="button" id="editEnv" class="editEnv" value="Edit envelope">
+                <input type="button" id="delEnv" class="delEnv" value="Delete envelope">
+            </div>
+            <div id="transfer">
+                <br>
+                <label class="transferFromName" id="transferFromName" class="transferFromName">Transfer from:</label>
+                <input type="text" id="transferName" class="transferName">
+                <br>
+                <label class="transferAmount" id="transferAmount">Amount: </label>
+                <input type="number" id="transferFromAmount" class="transferFromAmount">
+                <br>
+                <label class="receiverName" id="receiverName">Transfer to:</label>
+                <input type="text" id="recName" class="recName">
+                <br>
+                <br>
+                <input type="button" id="transferButton" class="transferButton" value="Transfer">
+            </div>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>

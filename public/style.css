@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    margin: 0 auto;
+}
+
+.labelforinput {
+    text-align: center;
+}
+
+#envForm {
+    text-align: center;
+}
+
+#transfer {
+    text-align: center;
+}
+body {
+    background-image: url('photo_2022-03-27_00-19-23.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
